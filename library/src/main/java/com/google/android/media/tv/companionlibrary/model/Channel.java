@@ -302,6 +302,7 @@ public final class Channel {
         values.put(TvContract.Channels.COLUMN_ORIGINAL_NETWORK_ID, mOriginalNetworkId);
         values.put(TvContract.Channels.COLUMN_TRANSPORT_STREAM_ID, mTransportStreamId);
         values.put(TvContract.Channels.COLUMN_SERVICE_ID, mServiceId);
+        values.put("browsable", 1);
         values.put(TvContract.Channels.COLUMN_NETWORK_AFFILIATION, mNetworkAffiliation);
         values.put(TvContract.Channels.COLUMN_SEARCHABLE, mSearchable);
         values.put(TvContract.Channels.COLUMN_SERVICE_TYPE, mServiceType);
